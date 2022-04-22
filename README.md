@@ -14,3 +14,22 @@ in your cli to add the dependencies express.js
 
 ## Usage
 
+Once all dependancies are added, then run
+```md
+npm start
+```
+in your CLI to start the server then go to your browser and type in
+```md
+http://localhost:3000/
+```
+Into the search bar.
+
+You will then be greeted by the folling screen.
+<img src="./assets/img/ss1.png" alt="screenshot of example"> 
+Next, click the "Get Started" button and you will be taken to a page that has saved notes on the left of page and an area to write a new not on the left that looks like the following. 
+<img src="./assets/img/ss2.png" alt="screenshot of example">
+If you would like to write a new note just click on the writing that says Note Title and start typing your replacement text and if you would like to add a note text you can do the same thing by clicking on the Note Text section and start typing. Example below.
+<img src="./assets/img/ss3.png" alt="screenshot of example">
+Once you have completed your note and want to save it. Just click the "floppy disk" icon on the top right corner of the page and your note will be saved on the right hand side and data will be stored in your db JSON file.
+<img src="./assets/img/ss4.png" alt="screenshot of example">
+If you would like to add more than one note simply repeat the process.
