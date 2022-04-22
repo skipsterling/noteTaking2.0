@@ -20,5 +20,20 @@ myNotes.get('/:note_id', (req, res) => {
         : res.json('Sorry, there is no note with this ID');
     });
 });
+myNotes.post('/', (req, res) => {
+  const { title, text } = req.body;
+
+  if (req.body) {
+    const newNote = {
+      title,
+      text,
+      note_id: uuidv4(),
+    };
+    readAndAppend(newNote, './db/db.json');
+    res.json('SUCCESS, you have added your note.');
+  } else {
+    res.error('Your note has not been added, please try again.');
+  }
+});
 
 module.exports = myNotes;
