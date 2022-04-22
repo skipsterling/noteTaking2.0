@@ -33,3 +33,9 @@ If you would like to write a new note just click on the writing that says Note T
 Once you have completed your note and want to save it. Just click the "floppy disk" icon on the top right corner of the page and your note will be saved on the right hand side and data will be stored in your db JSON file.
 <img src="./assets/img/ss4.png" alt="screenshot of example">
 If you would like to add more than one note simply repeat the process.
+
+## Link
+This is a link to the <a href="">Deployed App</a>
+
+## Questions
+If you have any questions related to this repository you can find my contact details via my <a href="https://github.com/skipsterling">GitHub</a> account.
