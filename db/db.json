@@ -7,5 +7,10 @@
         "title": "Time To Test",
         "text": "This is a test to see if everything works.",
         "note_id": "2d84808c-8269-4505-adf8-d3a7a84afcd6"
+    },
+    {
+        "title": "Shopping List",
+        "text": "- Bread\n- Milk \n- Coffee",
+        "note_id": "18058330-cdb5-4e2a-ba1d-e997d6964173"
     }
 ]
